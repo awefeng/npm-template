@@ -1,0 +1,56 @@
+{
+  "name": "npm-template",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "awefeng",
+    "email": "awefeng@163.com",
+    "url": "https://github.com/awefeng"
+  },
+  "description": "a template for npm package",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "keywords": ["template", "npm"],
+  "homepage": "https://github.com/awefeng/npm-template",
+  "bugs": {"url": "https://github.com/awefeng/npm-template/issues"},
+  "repository": {
+    "url": "https://github.com/awefeng/npm-template.git",
+    "type": "git"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "types",
+    "README.md",
+    "LICENSE"
+  ],
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "rollup --config"
+  },
+
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.7",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@babel/runtime-corejs3": "^7.18.3"
+  }
+}
