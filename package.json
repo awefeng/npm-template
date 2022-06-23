@@ -27,9 +27,9 @@
     "README.md",
     "LICENSE"
   ],
-  "types": "types/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup --config rollup.config.js"
   },
 
   "devDependencies": {
