@@ -1,5 +1,5 @@
 {
-  "name": "npm-template",
+  "name": "@awefeng/npm-template",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
@@ -11,8 +11,8 @@
   },
   "description": "a template for npm package",
   "license": "MIT",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "module": "esm/index.js",
   "keywords": ["template", "npm"],
   "homepage": "https://github.com/awefeng/npm-template",
   "bugs": {"url": "https://github.com/awefeng/npm-template/issues"},
@@ -22,8 +22,8 @@
   },
   "files": [
     "dist",
+    "esm",
     "bin",
-    "types",
     "README.md",
     "LICENSE"
   ],
